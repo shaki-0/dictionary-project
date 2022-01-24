@@ -1,1 +1,6 @@
-
+.App .Container {
+  border-radius: 5px;
+  width: 500px;
+  margin: 50px auto;
+  padding: 50px;
+}
