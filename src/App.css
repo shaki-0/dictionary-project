@@ -3,4 +3,26 @@
   width: 500px;
   margin: 50px auto;
   padding: 50px;
+  background-color: #ffffff; 
+  text-align: center;
+}
+
+body {
+  background-image: url("/public/images/background/collage.jpg");
+}
+
+.App .git-link {
+  border: 5px solid #ffffff;
+  border-color: #ffffff; 
+  color: #000000; 
+  font-weight: bolder;
+  display: block;
+  margin: 10px auto; 
+}
+
+.App .Wrapper {
+  padding: 5px; 
+  width: 250px; 
+  margin: 10px auto;
+  background-color: #ffffff;
 }

@@ -1,0 +1,18 @@
+.Search .typeWord {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+}
+
+.Search input {
+ display: block;
+ margin: 20px auto; 
+}
+
+.Search ::placeholder {
+    color: #000000; 
+    font-size: 20px; 
+    font-weight: bold; 
+    text-align: center; 
+}

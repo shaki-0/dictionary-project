@@ -11,7 +11,14 @@ export default function App() {
         <Search />
       </div>
       <div>
-      <footer className="text-center">Coded by Shaki Obadina</footer>
+        <footer className="Wrapper">
+          <a
+            className=" text-center git-link"
+            href="https://github.com/shaki-0/dictionary-project"
+          >
+            Coded by Shaki Obadina
+          </a>
+        </footer>  
       </div>
     </div>
   );

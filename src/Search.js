@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Results from "./Results";
+import "./Search.css"
 import axios from "axios";
 
 export default function Search() {
@@ -24,15 +25,16 @@ export default function Search() {
   }
 
  return (
-    <div className="Search">
-      <form onSubmit={search}>
-        <input
-          type="search"
-          placeholder="Enter a word"
-          onChange={handleWordChange}
-        />
-      </form>
-      <Results results={definitions} />
-    </div>
-  );
+   <div className="Search">
+     <form onSubmit={search}>
+       <input
+         className="typeWord text-center"
+         type="search"
+         placeholder="Type a word"
+         onChange={handleWordChange}
+       />
+     </form>
+     <Results results={definitions} />
+   </div>
+ );
 }
