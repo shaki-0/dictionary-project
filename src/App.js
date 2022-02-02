@@ -6,20 +6,20 @@ import Search from "./Search";
 export default function App() {
   return (
     <div className="App">
-      <div className="Container">
-        <header className="App-header"></header>
-        <Search />
-      </div>
-      <div>
-        <footer className="Wrapper">
-          <a
-            className=" text-center git-link"
-            href="https://github.com/shaki-0/dictionary-project"
-          >
-            Coded by Shaki Obadina
-          </a>
-        </footer>  
-      </div>
+      <header className="firstSections">
+        <h1> Dictionary </h1>
+      </header>
+      <Search />
+      <footer className="firstSections">
+        <a
+          className="git-link"
+          href="https://github.com/shaki-0/dictionary-project"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Coded by Shaki Obadina
+        </a>
+      </footer>
     </div>
   );
 }

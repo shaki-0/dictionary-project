@@ -26,14 +26,16 @@ export default function Search() {
 
  return (
    <div className="Search">
-     <form onSubmit={search}>
-       <input
-         className="typeWord text-center"
-         type="search"
-         placeholder="Type a word"
-         onChange={handleWordChange}
-       />
-     </form>
+     <div className="smallerSection">
+       <form onSubmit={search}>
+         <input
+           className="typeWord"
+           type="search"
+           placeholder="Type a word"
+           onChange={handleWordChange}
+         />
+       </form>
+     </div>
      <Results results={definitions} />
    </div>
  );

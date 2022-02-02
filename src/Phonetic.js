@@ -15,7 +15,7 @@ export default function Phonetic(props) {
          <FontAwesomeIcon icon={faVolumeUp} />
       </button>
     <br />
-   <p> {props.phonetic.text} </p>
+    {props.phonetic.text} 
 </div>
   );
 }

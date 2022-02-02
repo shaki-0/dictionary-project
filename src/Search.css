@@ -5,14 +5,16 @@
   border-bottom-style: groove;
 }
 
-.Search input {
- display: block;
- margin: 20px auto; 
+.Search .smallerSection {
+  margin: 20px auto;
+  width: 250px;
+  padding: 20px;
+  background-color: #ffffff;
 }
 
 .Search ::placeholder {
-    color: #000000; 
-    font-size: 20px; 
-    font-weight: bold; 
-    text-align: center; 
+  color: #000000;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
 }

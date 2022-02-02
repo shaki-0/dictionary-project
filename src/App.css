@@ -1,28 +1,28 @@
-.App .Container {
-  border-radius: 5px;
-  width: 500px;
-  margin: 50px auto;
-  padding: 50px;
-  background-color: #ffffff; 
-  text-align: center;
+:root {
+  --primary-color: #ffffff; 
+  --secondary-color: #000000; 
 }
 
 body {
   background-image: url("/public/images/background/collage.jpg");
+  text-align: center; 
+}
+
+.App .firstSections {
+  padding: 10px; 
+  width: 300px; 
+  margin: 30px auto;
+  background-color: var(--primary-color);
 }
 
 .App .git-link {
-  border: 5px solid #ffffff;
-  border-color: #ffffff; 
-  color: #000000; 
+  border: 5px solid var(--primary-color); 
+  color: var(--secondary-color); 
   font-weight: bolder;
-  display: block;
-  margin: 10px auto; 
+  font-size: 12px; 
 }
 
-.App .Wrapper {
-  padding: 5px; 
-  width: 250px; 
-  margin: 10px auto;
-  background-color: #ffffff;
+ .App .git-link:hover {
+ color: #808080; 
 }
+
