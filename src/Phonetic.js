@@ -12,10 +12,10 @@ export default function Phonetic(props) {
 
   return (
     <div className="Phonetic">
-      {props.phonetic.text} |
       <button className="buttonStyle" onClick={playSound}>
         <FontAwesomeIcon icon={faVolumeUp} />
       </button>
+      | {props.phonetic.text} 
     </div>
   );
 }

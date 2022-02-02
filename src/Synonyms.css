@@ -1,10 +1,13 @@
 .Synonyms {
- margin: 20px 0 0;
- padding: 0; 
+  margin: 20px 0 0;
+  padding: 0;
 }
 
 .Synonyms li {
-    display: inline-block;
-    padding-right: var(--padding);
-    font-size: 11px; 
+  display: inline-block;
+  padding-right: var(--spacing); 
+  font-size: 12px;
+  background-color: var(--secondary-color);
+  color: var(--primary-color); 
+  border: 5px solid var(--primary-color); 
 }
