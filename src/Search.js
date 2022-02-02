@@ -26,7 +26,7 @@ export default function Search() {
 
  return (
    <div className="Search">
-     <div className="smallerSection">
+     <div className="secondSection">
        <form onSubmit={search}>
          <input
            className="typeWord"

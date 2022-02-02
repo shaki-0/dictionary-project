@@ -1,6 +1,9 @@
 :root {
   --primary-color: #ffffff; 
   --secondary-color: #000000; 
+  --spacing: 20px auto; 
+  --font-size: 12px; 
+  --padding: 10px; 
 }
 
 body {
@@ -9,7 +12,7 @@ body {
 }
 
 .App .firstSections {
-  padding: 10px; 
+  padding: var(--padding); 
   width: 300px; 
   margin: 30px auto;
   background-color: var(--primary-color);
@@ -19,10 +22,14 @@ body {
   border: 5px solid var(--primary-color); 
   color: var(--secondary-color); 
   font-weight: bolder;
-  font-size: 12px; 
+  font-size: var(--font-size);
 }
 
  .App .git-link:hover {
  color: #808080; 
+}
+
+.App header {
+  font-family: "RansomNote", sans-serif;
 }
 

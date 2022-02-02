@@ -1,7 +1,8 @@
 .Results section {
   border-radius: 5px;
-  margin: 20px auto;
-  width: 450px; 
+  margin: var(--spacing); 
+  width: 500px; 
   padding: 40px;
-  background-color: #ffffff;
+  background-color: var(--primary-color);
+  font-family: 'Parable-Regular', sans-serif;
 }

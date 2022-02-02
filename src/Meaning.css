@@ -1,0 +1,5 @@
+
+.Meaning .example {
+  font-size: var(--font-size); 
+  opacity: 0.6; 
+}

@@ -5,15 +5,15 @@
   border-bottom-style: groove;
 }
 
-.Search .smallerSection {
-  margin: 20px auto;
+.Search .secondSection {
+  margin: var(--spacing); 
   width: 250px;
   padding: 20px;
-  background-color: #ffffff;
+  background-color: var(--primary-color);
 }
 
 .Search ::placeholder {
-  color: #000000;
+  color: var(--secondary-color); 
   font-size: 20px;
   font-weight: bold;
   text-align: center;

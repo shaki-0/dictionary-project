@@ -1,0 +1,8 @@
+ .Phonetic .buttonStyle {
+    background-color: var(--primary-color);
+    border-color: var(--secondary-color); 
+    padding: 8px;
+    border-radius: 50%;
+    margin: 7px; 
+}
+
