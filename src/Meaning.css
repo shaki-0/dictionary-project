@@ -1,5 +1,10 @@
 
 .Meaning .example {
   font-size: var(--font-size); 
-  opacity: 0.6; 
+  background-color: var(--secondary-color);
+  color: var(--primary-color); 
+}
+
+.Meaning .meaningSpace {
+  margin: 10px; 
 }

@@ -9,7 +9,7 @@ export default function App() {
       <header className="firstSections">
         <h1> Dictionary </h1>
       </header>
-      <Search />
+      <Search defaultWord="collage" />
       <footer className="firstSections">
         <a
           className="git-link"

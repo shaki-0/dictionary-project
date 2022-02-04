@@ -1,8 +1,12 @@
-.Results section {
+.Photos section {
   border-radius: 5px;
   margin: var(--spacing); 
   width: 500px; 
-  padding: 40px;
+  padding: 25px;
   background-color: var(--primary-color);
-  font-family: 'Merriweather', serif;
 }
+
+.Photos img {
+   -webkit-filter: grayscale(100%);
+}
+
