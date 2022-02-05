@@ -4,18 +4,19 @@ import {faVolumeUp} from "@fortawesome/free-solid-svg-icons";
 import "./Phonetic.css";
 
 export default function Phonetic(props) {
-  const audioElement = new Audio(props.phonetic.audio);
+  const audio = new Audio(props.phonetic.audio);
 
   function playSound(event) {
-    audioElement.play();
+    event.preventDefault();
+    audio.play();
   }
 
   return (
     <div className="Phonetic">
-      <button className="buttonStyle" onClick={playSound}>
+      <button onClick={playSound} className="buttonStyle">
         <FontAwesomeIcon icon={faVolumeUp} />
       </button>
-      | {props.phonetic.text} 
+      | {props.phonetic.text}
     </div>
   );
 }
