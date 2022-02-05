@@ -52,7 +52,6 @@ export default function Search(props) {
               type="search"
               placeholder="Type a word"
               onChange={handleWordChange}
-              defaultValue={props.defaultWord}
             />
           </form>
         </div>
