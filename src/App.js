@@ -6,10 +6,14 @@ import Search from "./Search";
 export default function App() {
   return (
     <div className="App">
-      <header className="firstSections">
-        <h1> Dictionary </h1>
+      <header>
+        <img
+          className="mt-5"
+          src="/images/logo/header.png"
+          alt="dictionary header"
+        />
       </header>
-      <Search defaultWord="collage" />
+      <Search defaultWord="abstraction" />
       <footer className="firstSections">
         <a
           className="git-link"

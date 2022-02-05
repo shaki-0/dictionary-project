@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Results from "./Results";
-import Photos from "./Photos"; 
+import Photos from "./Photos";
 import "./Search.css";
 import axios from "axios";
 
@@ -8,14 +8,14 @@ export default function Search(props) {
   const [word, setWord] = useState(props.defaultWord);
   const [definitions, setDefinitions] = useState(null);
   const [loaded, setLoaded] = useState(false);
-  const [photos,setPhotos] = useState(null);
+  const [photos, setPhotos] = useState(null);
 
   function dictionaryResponse(response) {
     setDefinitions(response.data[0]);
   }
 
   function pexelsResponse(response) {
-    setPhotos(response.data.photos); 
+    setPhotos(response.data.photos);
   }
 
   function search() {
@@ -25,8 +25,7 @@ export default function Search(props) {
     let pexelsApiKey =
       "563492ad6f91700001000001f543822ba8164b94a516810527848241";
     let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${word}&per_page=3`;
-    let headers = { Authorization: `Bearer ${pexelsApiKey}` };
-    axios.get(pexelsApiUrl, {headers: headers}).then(pexelsResponse);
+    axios.get(pexelsApiUrl, { headers: { Authorization: `Bearer ${pexelsApiKey}` } }).then(pexelsResponse);
   }
 
   function handleSubmit(event) {
@@ -53,7 +52,7 @@ export default function Search(props) {
               type="search"
               placeholder="Type a word"
               onChange={handleWordChange}
-              defaultValue={props.defaultWord}
+              
             />
           </form>
         </div>
